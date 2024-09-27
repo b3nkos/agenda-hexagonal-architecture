@@ -1,0 +1,17 @@
+### Create a contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "name": "Alice Johnson",
+  "email": "alice.johnson@example.com",
+  "phone": "84776383993"
+}
+
+### Find contact by ID
+GET http://localhost:3000/contacts/8414139b-91dc-4f47-83cb-5c7b3b204e19
+Content-Type: application/json
+
+### Get all contacts
+GET http://localhost:3000/contacts
+Content-Type: application/json
